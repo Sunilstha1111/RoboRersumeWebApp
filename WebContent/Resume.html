@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Resume Builder</title>
+</head>
+<body>
+<form action="RoboServlet" method = "post">
+   Name:<input type = "text" name = "name"></input><br/>
+   Email Address:<input type = "text" name = "email"></input><br/>
+   
+   <p></p>
+   <b>Education</b>
+   <p></p>
+       Degree: <input type = "text" name = "degree"></input><br/>
+       University: <input type = "text" name = "university"></input><br/>
+       Graduation Date: <input type = "text" name = "gradD"></input><br/>
+   <p></p>
+     <b>Do you want to enter more educational achievement? You can enter at max 10.</b>
+     <p></p>
+       <fieldset id = "group1">
+       <input type = "radio" name = "group1" value ="Yes" checked> Yes <br/>
+       <input type = "radio" name = "group1" value ="No"> No <br/>
+      </fieldset>
+       
+    <p></p>
+    <b> Work Experience</b>
+    <p></p>
+        Company:<input type = "text" name = "company"></input><br/>
+        Role:<input type = "text" name = "role"></input><br/>
+        Tenure:<input type = "text" name = "tenure"></input><br/>
+           &emsp;
+           Duty-1:<input type = "text" name = "duty1"></input><br/>
+           &emsp;
+           Duty-1:<input type = "text" name = "duty2"></input><br/>
+      <p></p> 
+         <b>Do you want to enter more work experience? You can enter at max 10.</b>
+      <p></p>
+        <fieldset id = "group2">
+        <input type = "radio" name = "group2" value ="yes"> Yes <br/>
+        <input type = "radio" name = "group2" value ="no"> No <br/>
+       </fieldset>
+        
+     <p></p>
+     <b>Skills</b>
+     <p></p> 
+         Skill:<input type = "text" name = "skill"></input><br/>
+         Rating(Familiar/Intermediate/Professional/Expert):<input type = "text" name = "skill"></input><br/>
+      <p></p>
+      <b>Do you want to enter more skills? You can enter at max 20.</b>
+      <p></p>
+      <fieldset id = "group3">
+        <input type = "radio" name = "group3" value ="Yeah">Yes<br/>
+        <input type = "radio" name = "group3" value ="Nah"> No<br/>
+        </fieldset>
+<input type = "Submit">
+</form>
+</body>
+</html>
